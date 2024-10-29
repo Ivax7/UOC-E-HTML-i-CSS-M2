@@ -1,0 +1,18 @@
+
+body {
+  height: 100vh;
+  color: #1f1f1f;
+  background: linear-gradient(to bottom, #bada55, #c0ffee);
+}
+
+.example {
+  display: flex; /* Esta propiedad debería recibir prefijos */
+  transition: all 0.3s ease; /* Esta propiedad también debería recibir prefijos */
+  -webkit-transform: translateX(10px); /* Esta propiedad puede recibir prefijos */
+  transform: translateX(10px); /* Propiedad estándar */
+}
+
+h1 {
+  color: hotpink;
+  font-family: cursive;
+}
